@@ -42,14 +42,16 @@ body{background:#242D31FF;}
 	color:#ffffff;
 }
 
-.say_me_discord, .say_me_telegram{
+.say_me_discord{
+	margin-left:6px;
 	color:#6A339EFF;
 	font-size:18px;
-	margin-left:6px;
+	
 }
 
 .say_me_telegram{
 	margin-left:31px;
+	font-size:18px;
 	color:#31A8E0FF;
 }
 
@@ -74,10 +76,6 @@ body{background:#242D31FF;}
 /* sakura.html */
 
 /* hinata.html */
-.spoiler{
-	
-}
-
 .spoiler_item{
 	position:relative;
 	margin:4px;
@@ -110,3 +108,70 @@ body{background:#242D31FF;}
 /* ten-ten.html */
 
 /* tsunade.html */
+
+/* disc-tele.html */
+
+.spoiler_say_me_item{
+	position:relative;
+	margin:4px;
+}
+
+.spoiler_say_me_item_input{
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:0;
+}
+
+.spoiler_say_me_trigger{
+	display:block;
+	padding:20px;
+	border:1px solid #6A339EFF;
+}
+
+.spoiler_say_me_content{
+	padding:20px;
+	border:1px solid #6A339EFF;
+	border-top:none;
+	display:none;
+}
+
+.spoiler_say_me_item_input:checked ~ .spoiler_say_me_content{
+	display:block;
+}
+
+
+
+.spoiler_say_me_item2{
+	position:relative;
+	margin:4px;
+}
+
+.spoiler_say_me_item_input2{
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:0;
+}
+
+.spoiler_say_me_trigger2{
+	display:block;
+	padding:20px;
+	border:1px solid #31A8E0FF;
+}
+
+.spoiler_say_me_content2{
+	padding:20px;
+	border:1px solid #31A8E0FF;
+	border-top:none;
+	display:none;
+}
+
+.spoiler_say_me_item_input2:checked ~ .spoiler_say_me_content2{
+	display:block;
+}
+
+.msg_text_p1{
+	padding-left:20px;
+	font-size:20px;
+}
