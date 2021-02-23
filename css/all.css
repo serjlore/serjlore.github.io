@@ -1,0 +1,112 @@
+/* for all html */
+body{background:#242D31FF;}
+
+.none{grid-area: none;}
+
+.alldiv{
+  display: grid;
+  grid-template-columns: 1.80fr 0.30fr;
+  grid-template-rows: 0.1fr 0.6fr 2.3fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "navig navig"
+    "msg menu"
+    "msg none";
+}
+
+.msg{
+	grid-area: msg;
+	padding:4px;
+	color:#D4D0C8FF;
+	background-color:#000000DC;
+	border:2px solid #1D2329FF;
+	text-align:left;
+}
+
+.navig{
+	grid-area: navig;
+	color:#D4D0C8FF;
+	background-color:#000000DC;
+	border:2px solid #1D2329FF;
+	text-align:center;
+	margin-bottom:4px;
+}
+
+/* menu */
+.menu{
+	border:2px solid #1D2329FF;
+	background-color:#050607FF;
+	grid-area: menu; 
+	font-size:18px;
+	margin-left:4px;
+	color:#ffffff;
+}
+
+.say_me_discord, .say_me_telegram{
+	color:#6A339EFF;
+	font-size:18px;
+	margin-left:6px;
+}
+
+.say_me_telegram{
+	margin-left:31px;
+	color:#31A8E0FF;
+}
+
+#menu1, #menu2, #menu3, #menu4, #menu5{
+	font-size:18px;
+	margin:6px;
+	color:#8DA399FF;
+}
+
+#goindex{
+	color:#6B7B74FF;
+	font-size:18px;
+	margin:10px;
+}
+
+/* index.html */
+
+
+/* ino.html */
+
+
+/* sakura.html */
+
+/* hinata.html */
+.spoiler{
+	
+}
+
+.spoiler_item{
+	position:relative;
+	margin:4px;
+}
+
+.spoiler_input{
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:0;
+}
+
+.spoiler_trigger{
+	display:block;
+	padding:20px;
+	border:1px solid green;
+}
+
+.spoiler_content{
+	padding:20px;
+	border:1px solid blue;
+	border-top:none;
+	display:none;
+}
+
+.spoiler_input:checked ~ .spoiler_content{
+	display:block;
+}
+
+/* ten-ten.html */
+
+/* tsunade.html */
